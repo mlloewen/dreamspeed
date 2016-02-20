@@ -178,6 +178,11 @@ class DreamSpeed_Services extends DreamSpeed_Plugin_Base {
 			return $data;
 		}
 
+		// Only push "application" files (which includes PDF), audio files, and video files to cdn.
+		if ( preg_match( "/^(application|audio|video)/i", $type ) != 1 ) {
+			return $data;
+		}
+
 		$file_name = basename( $file_path );
 		$files_to_remove = array( $file_path );
 
