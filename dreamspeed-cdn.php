@@ -1,9 +1,9 @@
 <?php
 /*
-Plugin Name: DreamSpeed CDN
+Plugin Name: ML DreamSpeed CDN
 Plugin URI: https://github.com/Ipstenu/dreamspeed/
 Description: Copies files to DreamSpeed as they are uploaded to the Media Library. Optionally configure a custom domain name as an alias.
-Author: Mika Epstein
+Author: Mika Epstein, Matthew Loewen
 Version: 0.5.4
 Author URI: http://dreamhost.com
 Text Domain: dreamspeed-cdn
